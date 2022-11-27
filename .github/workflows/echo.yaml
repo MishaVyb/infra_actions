@@ -1,4 +1,4 @@
-name: Django CI
+name: CI
 
 on:
   push:
@@ -15,8 +15,8 @@ jobs:
       run: |
         echo hellow world
         echo hi there
-   
-  echo_one:
+
+  echo_two:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
